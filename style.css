@@ -89,3 +89,10 @@ td:hover{
     color: black;
     border: none;
 }
+
+.headerClass{
+    background-color: lightblue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
