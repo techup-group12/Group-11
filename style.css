@@ -50,34 +50,42 @@ caption {
     caption-side: bottom;
 }
 
-th, td {
-    text-align: center;
-    padding: 8px;
-}
-
-th {
-    background-color: #094074;
-    color: white;
-}
-
 .footer {
     background-color: #5ADBFF;
     padding: 0.5em;
     text-align: right;
 }
 
-th:hover {
-    background-color: yellow;
-  }
-
-  tr:nth-child(even){
-background-color: blue;
-}
-tr:nth-child(odd){
-background-color: green;
-}
-
 #header {
     margin-left: 300px;
     margin-top: 200px;
   }
+
+
+#box{
+    width: 200px;
+    border: solid 2px black;
+}
+
+
+th{
+    background-color: lightblue;
+    padding: 10px;
+}
+
+th:nth-child(even){
+    color: white;
+}
+
+td{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: solid 1px;
+}
+
+td:hover{
+    background-color: lightblue;
+    color: black;
+    border: none;
+}
