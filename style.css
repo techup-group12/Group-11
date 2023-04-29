@@ -81,7 +81,6 @@ td{
     padding: 10px;
     background-color: blue;
     color: white;
-    border: solid 1px;
 }
 
 td:hover{
@@ -95,4 +94,29 @@ td:hover{
     color: white;
     padding: 10px;
     text-align: center;
+}
+
+.tdCLass{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 1px solid;
+}
+button{
+    padding: 5px;
+    border: none;
+    background-color: lightblue;
+    border-radius: 2px;
+}
+
+.emriClass{
+    width: 20%;
+}
+
+.descClass{
+    width: 60%;
+}
+
+.btnClass{
+    width: 20%;
 }
